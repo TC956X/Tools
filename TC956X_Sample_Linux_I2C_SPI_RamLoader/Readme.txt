@@ -94,12 +94,12 @@ History:
 
         <to change SPI speed>
         change the following line.
-        tc956x_spi.c +69
+        tc956x_spi.c +62
             spi_speed = 5000000;                //5MHz (200nS per bit)
 
         <to change SPI device>
         change the following line.
-        tc956x_spi.c +48
+        tc956x_spi.c +41
             static const char *spi_device = "/dev/spidev0.0";
 
 5. Usage
